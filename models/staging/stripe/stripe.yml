@@ -6,3 +6,11 @@ sources:
     tables:
       - name: payment
      
+models:
+    - name: stg_payments
+        description: oen records per paymentid per status per typle
+        columns:
+          - name: payment_id
+            tests:
+             - unique
+             - not_null

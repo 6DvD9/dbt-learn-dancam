@@ -1,15 +1,20 @@
 version: 2
 
 models:
-    - name: stg_orders
-    description: This model cleans up order data
+    - name: orders
+    description: orders model.
     columns:
       - name: order_id
         description: Primary key
         tests:
           - unique
           - not_null
-      - name: status
+          
+      - name: customers
+        description: One row per customer
+        columns:
+          - name: customer_id
+        description: Primary key
         tests:
-          - accepted_values:
-              values: ['placed', 'shipped', 'completed', 'return_pending', 'returned']
+          - unique
+          - not_null
