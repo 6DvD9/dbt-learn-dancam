@@ -6,4 +6,4 @@ Select
     amount/100 as payment_amount,
     created as created_date, -- put _at for date fields
     _batched_at as updated_at
-from raw.stripe.payment -- 120 rows
+from {{ source('stripe', 'payments') }} -- 120 rows

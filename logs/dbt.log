@@ -4437,3 +4437,411 @@ limit 500
 2021-07-14 19:59:05.240672 (Thread-43): handling status request
 2021-07-14 19:59:05.242142 (Thread-43): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b1aaeac0>]}
 2021-07-14 19:59:05.243003 (Thread-43): sending response (<Response 9679 bytes [200 OK]>) to 10.0.23.35
+2021-07-14 19:59:08.895988 (MainThread): Connection 'model.dbt_dev_dancam.stg_payments' was properly closed.
+2021-07-14 19:59:08.910223 (Thread-44): Parsing macros/adapters.sql
+2021-07-14 19:59:08.937996 (Thread-44): Parsing macros/catalog.sql
+2021-07-14 19:59:08.940003 (Thread-44): Parsing macros/materializations/table.sql
+2021-07-14 19:59:08.943743 (Thread-44): Parsing macros/materializations/merge.sql
+2021-07-14 19:59:08.946288 (Thread-44): Parsing macros/materializations/incremental.sql
+2021-07-14 19:59:08.961113 (Thread-44): Parsing macros/materializations/view.sql
+2021-07-14 19:59:08.964531 (Thread-44): Parsing macros/core.sql
+2021-07-14 19:59:08.970688 (Thread-44): Parsing macros/materializations/helpers.sql
+2021-07-14 19:59:08.984459 (Thread-44): Parsing macros/materializations/common/merge.sql
+2021-07-14 19:59:08.999131 (Thread-44): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-07-14 19:59:09.000859 (Thread-44): Parsing macros/materializations/snapshot/strategies.sql
+2021-07-14 19:59:09.017911 (Thread-44): Parsing macros/materializations/snapshot/snapshot.sql
+2021-07-14 19:59:09.048623 (Thread-44): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-07-14 19:59:09.053468 (Thread-44): Parsing macros/materializations/view/view.sql
+2021-07-14 19:59:09.059515 (Thread-44): Parsing macros/materializations/seed/seed.sql
+2021-07-14 19:59:09.079550 (Thread-44): Parsing macros/materializations/table/table.sql
+2021-07-14 19:59:09.086083 (Thread-44): Parsing macros/materializations/incremental/helpers.sql
+2021-07-14 19:59:09.087955 (Thread-44): Parsing macros/materializations/incremental/incremental.sql
+2021-07-14 19:59:09.093716 (Thread-44): Parsing macros/etc/is_incremental.sql
+2021-07-14 19:59:09.095293 (Thread-44): Parsing macros/etc/query.sql
+2021-07-14 19:59:09.096314 (Thread-44): Parsing macros/etc/datetime.sql
+2021-07-14 19:59:09.104761 (Thread-44): Parsing macros/etc/get_custom_alias.sql
+2021-07-14 19:59:09.111675 (Thread-44): Parsing macros/etc/get_custom_database.sql
+2021-07-14 19:59:09.120168 (Thread-44): Parsing macros/etc/get_custom_schema.sql
+2021-07-14 19:59:09.131111 (Thread-44): Parsing macros/schema_tests/not_null.sql
+2021-07-14 19:59:09.141222 (Thread-44): Parsing macros/schema_tests/accepted_values.sql
+2021-07-14 19:59:09.143895 (Thread-44): Parsing macros/schema_tests/relationships.sql
+2021-07-14 19:59:09.145727 (Thread-44): Parsing macros/schema_tests/unique.sql
+2021-07-14 19:59:09.152917 (Thread-44): Parsing macros/adapters/common.sql
+2021-07-14 19:59:09.366773 (Thread-44): Acquiring new snowflake connection "model.dbt_dev_dancam.stg_customers".
+2021-07-14 19:59:09.371880 (Thread-44): Acquiring new snowflake connection "model.dbt_dev_dancam.stg_orders".
+2021-07-14 19:59:09.376245 (Thread-44): Acquiring new snowflake connection "model.dbt_dev_dancam.stg_payments".
+2021-07-14 19:59:09.489413 (Thread-45): handling status request
+2021-07-14 19:59:09.489715 (Thread-45): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b3ca42b0>]}
+2021-07-14 19:59:09.490497 (Thread-45): sending response (<Response 9679 bytes [200 OK]>) to 10.0.20.233
+2021-07-14 19:59:09.550067 (Thread-46): handling status request
+2021-07-14 19:59:09.550372 (Thread-46): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b3ca47f0>]}
+2021-07-14 19:59:09.551166 (Thread-46): sending response (<Response 9679 bytes [200 OK]>) to 10.0.1.39
+2021-07-14 19:59:09.574565 (Thread-47): handling status request
+2021-07-14 19:59:09.574847 (Thread-47): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b1b17d30>]}
+2021-07-14 19:59:09.575621 (Thread-47): sending response (<Response 9679 bytes [200 OK]>) to 10.0.16.219
+2021-07-14 19:59:35.248339 (MainThread): Connection 'model.dbt_dev_dancam.stg_payments' was properly closed.
+2021-07-14 19:59:35.265334 (Thread-48): Parsing macros/adapters.sql
+2021-07-14 19:59:35.293118 (Thread-48): Parsing macros/catalog.sql
+2021-07-14 19:59:35.295115 (Thread-48): Parsing macros/materializations/table.sql
+2021-07-14 19:59:35.298824 (Thread-48): Parsing macros/materializations/merge.sql
+2021-07-14 19:59:35.300759 (Thread-48): Parsing macros/materializations/incremental.sql
+2021-07-14 19:59:35.309474 (Thread-48): Parsing macros/materializations/view.sql
+2021-07-14 19:59:35.311653 (Thread-48): Parsing macros/core.sql
+2021-07-14 19:59:35.315348 (Thread-48): Parsing macros/materializations/helpers.sql
+2021-07-14 19:59:35.324110 (Thread-48): Parsing macros/materializations/common/merge.sql
+2021-07-14 19:59:35.337675 (Thread-48): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-07-14 19:59:35.339396 (Thread-48): Parsing macros/materializations/snapshot/strategies.sql
+2021-07-14 19:59:35.356434 (Thread-48): Parsing macros/materializations/snapshot/snapshot.sql
+2021-07-14 19:59:35.391330 (Thread-48): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-07-14 19:59:35.398449 (Thread-48): Parsing macros/materializations/view/view.sql
+2021-07-14 19:59:35.407255 (Thread-48): Parsing macros/materializations/seed/seed.sql
+2021-07-14 19:59:35.436378 (Thread-48): Parsing macros/materializations/table/table.sql
+2021-07-14 19:59:35.445479 (Thread-48): Parsing macros/materializations/incremental/helpers.sql
+2021-07-14 19:59:35.455508 (Thread-48): Parsing macros/materializations/incremental/incremental.sql
+2021-07-14 19:59:35.467105 (Thread-48): Parsing macros/etc/is_incremental.sql
+2021-07-14 19:59:35.472105 (Thread-48): Parsing macros/etc/query.sql
+2021-07-14 19:59:35.479958 (Thread-48): Parsing macros/etc/datetime.sql
+2021-07-14 19:59:35.492431 (Thread-48): Parsing macros/etc/get_custom_alias.sql
+2021-07-14 19:59:35.493686 (Thread-48): Parsing macros/etc/get_custom_database.sql
+2021-07-14 19:59:35.495506 (Thread-48): Parsing macros/etc/get_custom_schema.sql
+2021-07-14 19:59:35.505115 (Thread-48): Parsing macros/schema_tests/not_null.sql
+2021-07-14 19:59:35.506667 (Thread-48): Parsing macros/schema_tests/accepted_values.sql
+2021-07-14 19:59:35.509289 (Thread-48): Parsing macros/schema_tests/relationships.sql
+2021-07-14 19:59:35.511133 (Thread-48): Parsing macros/schema_tests/unique.sql
+2021-07-14 19:59:35.512820 (Thread-48): Parsing macros/adapters/common.sql
+2021-07-14 19:59:35.734138 (Thread-48): Acquiring new snowflake connection "model.dbt_dev_dancam.stg_customers".
+2021-07-14 19:59:35.739660 (Thread-48): Acquiring new snowflake connection "model.dbt_dev_dancam.stg_orders".
+2021-07-14 19:59:35.744039 (Thread-48): Acquiring new snowflake connection "model.dbt_dev_dancam.stg_payments".
+2021-07-14 19:59:35.795401 (Thread-49): handling status request
+2021-07-14 19:59:35.796178 (Thread-50): handling status request
+2021-07-14 19:59:35.796391 (Thread-49): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b009dfd0>]}
+2021-07-14 19:59:35.797156 (Thread-49): sending response (<Response 185 bytes [200 OK]>) to 10.0.16.219
+2021-07-14 19:59:35.797784 (Thread-51): handling status request
+2021-07-14 19:59:35.797967 (Thread-50): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b00ad310>]}
+2021-07-14 19:59:35.800171 (Thread-50): sending response (<Response 9679 bytes [200 OK]>) to 10.0.31.229
+2021-07-14 19:59:35.800672 (Thread-51): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b00ad7f0>]}
+2021-07-14 19:59:35.801415 (Thread-51): sending response (<Response 9679 bytes [200 OK]>) to 10.0.33.11
+2021-07-14 19:59:37.158256 (Thread-52): handling status request
+2021-07-14 19:59:37.158557 (Thread-52): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b00adf70>]}
+2021-07-14 19:59:37.182151 (Thread-52): sending response (<Response 9679 bytes [200 OK]>) to 10.0.32.157
+2021-07-14 19:59:40.105012 (MainThread): Connection 'model.dbt_dev_dancam.stg_payments' was properly closed.
+2021-07-14 19:59:40.120208 (Thread-53): Parsing macros/adapters.sql
+2021-07-14 19:59:40.148161 (Thread-53): Parsing macros/catalog.sql
+2021-07-14 19:59:40.150128 (Thread-53): Parsing macros/materializations/table.sql
+2021-07-14 19:59:40.153881 (Thread-53): Parsing macros/materializations/merge.sql
+2021-07-14 19:59:40.155826 (Thread-53): Parsing macros/materializations/incremental.sql
+2021-07-14 19:59:40.164663 (Thread-53): Parsing macros/materializations/view.sql
+2021-07-14 19:59:40.166792 (Thread-53): Parsing macros/core.sql
+2021-07-14 19:59:40.170599 (Thread-53): Parsing macros/materializations/helpers.sql
+2021-07-14 19:59:40.179397 (Thread-53): Parsing macros/materializations/common/merge.sql
+2021-07-14 19:59:40.193039 (Thread-53): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-07-14 19:59:40.194739 (Thread-53): Parsing macros/materializations/snapshot/strategies.sql
+2021-07-14 19:59:40.211651 (Thread-53): Parsing macros/materializations/snapshot/snapshot.sql
+2021-07-14 19:59:40.243450 (Thread-53): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-07-14 19:59:40.248489 (Thread-53): Parsing macros/materializations/view/view.sql
+2021-07-14 19:59:40.254814 (Thread-53): Parsing macros/materializations/seed/seed.sql
+2021-07-14 19:59:40.275532 (Thread-53): Parsing macros/materializations/table/table.sql
+2021-07-14 19:59:40.282152 (Thread-53): Parsing macros/materializations/incremental/helpers.sql
+2021-07-14 19:59:40.284027 (Thread-53): Parsing macros/materializations/incremental/incremental.sql
+2021-07-14 19:59:40.290031 (Thread-53): Parsing macros/etc/is_incremental.sql
+2021-07-14 19:59:40.291697 (Thread-53): Parsing macros/etc/query.sql
+2021-07-14 19:59:40.292756 (Thread-53): Parsing macros/etc/datetime.sql
+2021-07-14 19:59:40.302008 (Thread-53): Parsing macros/etc/get_custom_alias.sql
+2021-07-14 19:59:40.304912 (Thread-53): Parsing macros/etc/get_custom_database.sql
+2021-07-14 19:59:40.314564 (Thread-53): Parsing macros/etc/get_custom_schema.sql
+2021-07-14 19:59:40.324825 (Thread-53): Parsing macros/schema_tests/not_null.sql
+2021-07-14 19:59:40.332917 (Thread-53): Parsing macros/schema_tests/accepted_values.sql
+2021-07-14 19:59:40.335593 (Thread-53): Parsing macros/schema_tests/relationships.sql
+2021-07-14 19:59:40.337497 (Thread-53): Parsing macros/schema_tests/unique.sql
+2021-07-14 19:59:40.339278 (Thread-53): Parsing macros/adapters/common.sql
+2021-07-14 19:59:40.717137 (Thread-54): handling status request
+2021-07-14 19:59:40.727140 (Thread-54): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59b6a9c40>]}
+2021-07-14 19:59:40.729022 (Thread-55): handling status request
+2021-07-14 19:59:40.729548 (Thread-54): sending response (<Response 185 bytes [200 OK]>) to 10.0.23.35
+2021-07-14 19:59:40.730449 (Thread-56): handling status request
+2021-07-14 19:59:40.731077 (Thread-55): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59b7a5790>]}
+2021-07-14 19:59:40.731601 (Thread-55): sending response (<Response 185 bytes [200 OK]>) to 10.0.11.11
+2021-07-14 19:59:40.732087 (Thread-56): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59b6a9c40>]}
+2021-07-14 19:59:40.732517 (Thread-56): sending response (<Response 185 bytes [200 OK]>) to 10.0.31.229
+2021-07-14 19:59:40.772481 (Thread-53): WARNING: Found documentation for resource "customers" which was not found or is disabled
+2021-07-14 19:59:40.772631 (Thread-53): WARNING: Found documentation for resource "stg_customers" which was not found or is disabled
+2021-07-14 19:59:40.772693 (Thread-53): WARNING: Found documentation for resource "stg_orders" which was not found or is disabled
+2021-07-14 19:59:40.772864 (Thread-53): [WARNING]: Test 'test.dbt_dev_dancam.unique_customers_customer_id' (models/schema.yml) depends on a node named 'customers' which was not found
+2021-07-14 19:59:40.773031 (Thread-53): [WARNING]: Test 'test.dbt_dev_dancam.not_null_customers_customer_id' (models/schema.yml) depends on a node named 'customers' which was not found
+2021-07-14 19:59:40.773183 (Thread-53): [WARNING]: Test 'test.dbt_dev_dancam.unique_stg_customers_customer_id' (models/schema.yml) depends on a node named 'stg_customers' which was not found
+2021-07-14 19:59:40.773306 (Thread-53): [WARNING]: Test 'test.dbt_dev_dancam.not_null_stg_customers_customer_id' (models/schema.yml) depends on a node named 'stg_customers' which was not found
+2021-07-14 19:59:40.773422 (Thread-53): [WARNING]: Test 'test.dbt_dev_dancam.unique_stg_orders_order_id' (models/schema.yml) depends on a node named 'stg_orders' which was not found
+2021-07-14 19:59:40.773536 (Thread-53): [WARNING]: Test 'test.dbt_dev_dancam.not_null_stg_orders_order_id' (models/schema.yml) depends on a node named 'stg_orders' which was not found
+2021-07-14 19:59:40.773649 (Thread-53): [WARNING]: Test 'test.dbt_dev_dancam.accepted_values_stg_orders_status__placed__shipped__completed__return_pending__returned' (models/schema.yml) depends on a node named 'stg_orders' which was not found
+2021-07-14 19:59:40.777741 (Thread-53): [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_dev_dancam
+
+2021-07-14 19:59:40.778269 (Thread-53): Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0b55e80>]}
+2021-07-14 19:59:42.007577 (Thread-57): handling status request
+2021-07-14 19:59:42.007880 (Thread-57): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59b768460>]}
+2021-07-14 19:59:42.008698 (Thread-57): sending response (<Response 12782 bytes [200 OK]>) to 10.0.16.219
+2021-07-14 19:59:42.016275 (Thread-58): handling status request
+2021-07-14 19:59:42.016499 (Thread-58): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59b768df0>]}
+2021-07-14 19:59:42.017268 (Thread-58): sending response (<Response 12782 bytes [200 OK]>) to 10.0.23.35
+2021-07-14 19:59:42.051601 (Thread-59): handling status request
+2021-07-14 19:59:42.051884 (Thread-59): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59b76c1c0>]}
+2021-07-14 19:59:42.052673 (Thread-59): sending response (<Response 12782 bytes [200 OK]>) to 10.0.33.11
+2021-07-14 19:59:54.854748 (Thread-60): Got an acceptable cached parse result
+2021-07-14 20:00:35.630100 (Thread-76): handling status request
+2021-07-14 20:00:35.637314 (Thread-76): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b1bb5520>]}
+2021-07-14 20:00:35.637936 (Thread-76): sending response (<Response 185 bytes [200 OK]>) to 10.0.16.219
+2021-07-14 20:00:35.662774 (Thread-75): Got an acceptable cached parse result
+2021-07-14 20:00:35.890637 (Thread-77): handling status request
+2021-07-14 20:00:35.890956 (Thread-77): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b1b787c0>]}
+2021-07-14 20:00:35.891456 (Thread-77): sending response (<Response 185 bytes [200 OK]>) to 10.0.36.55
+2021-07-14 20:00:35.903888 (Thread-75): WARNING: Found documentation for resource "customers" which was not found or is disabled
+2021-07-14 20:00:35.903997 (Thread-75): WARNING: Found documentation for resource "orders" which was not found or is disabled
+2021-07-14 20:00:35.904056 (Thread-75): WARNING: Found documentation for resource "stg_customers" which was not found or is disabled
+2021-07-14 20:00:35.904107 (Thread-75): WARNING: Found documentation for resource "stg_orders" which was not found or is disabled
+2021-07-14 20:00:35.904293 (Thread-75): [WARNING]: Test 'test.dbt_dev_dancam.unique_customers_customer_id' (models/schema.yml) depends on a node named 'customers' which was not found
+2021-07-14 20:00:35.904439 (Thread-75): [WARNING]: Test 'test.dbt_dev_dancam.not_null_customers_customer_id' (models/schema.yml) depends on a node named 'customers' which was not found
+2021-07-14 20:00:35.904562 (Thread-75): [WARNING]: Test 'test.dbt_dev_dancam.unique_stg_customers_customer_id' (models/schema.yml) depends on a node named 'stg_customers' which was not found
+2021-07-14 20:00:35.904700 (Thread-75): [WARNING]: Test 'test.dbt_dev_dancam.not_null_stg_customers_customer_id' (models/schema.yml) depends on a node named 'stg_customers' which was not found
+2021-07-14 20:00:35.904821 (Thread-75): [WARNING]: Test 'test.dbt_dev_dancam.unique_stg_orders_order_id' (models/schema.yml) depends on a node named 'stg_orders' which was not found
+2021-07-14 20:00:35.904937 (Thread-75): [WARNING]: Test 'test.dbt_dev_dancam.not_null_stg_orders_order_id' (models/schema.yml) depends on a node named 'stg_orders' which was not found
+2021-07-14 20:00:35.905052 (Thread-75): [WARNING]: Test 'test.dbt_dev_dancam.accepted_values_stg_orders_status__placed__shipped__completed__return_pending__returned' (models/schema.yml) depends on a node named 'stg_orders' which was not found
+2021-07-14 20:00:35.905189 (Thread-75): [WARNING]: Test 'test.dbt_dev_dancam.unique_orders_order_id' (models/schema.yml) depends on a node named 'orders' which was not found
+2021-07-14 20:00:35.905317 (Thread-75): [WARNING]: Test 'test.dbt_dev_dancam.not_null_orders_order_id' (models/schema.yml) depends on a node named 'orders' which was not found
+2021-07-14 20:00:35.909532 (Thread-75): [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_dev_dancam
+
+2021-07-14 20:00:35.909960 (Thread-75): Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b1b78580>]}
+2021-07-14 20:00:35.982721 (Thread-78): handling status request
+2021-07-14 20:00:35.983043 (Thread-78): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b1b78580>]}
+2021-07-14 20:00:35.983699 (Thread-78): sending response (<Response 6203 bytes [200 OK]>) to 10.0.31.157
+2021-07-14 20:00:37.006018 (Thread-79): handling status request
+2021-07-14 20:00:37.006316 (Thread-79): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b11dd9a0>]}
+2021-07-14 20:00:37.007177 (Thread-79): sending response (<Response 6203 bytes [200 OK]>) to 10.0.32.157
+2021-07-14 20:00:37.236766 (Thread-80): handling status request
+2021-07-14 20:00:37.237059 (Thread-80): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b1b78190>]}
+2021-07-14 20:00:37.237667 (Thread-80): sending response (<Response 6203 bytes [200 OK]>) to 10.0.31.229
+2021-07-14 20:00:42.375132 (Thread-81): Got an acceptable cached parse result
+2021-07-14 20:00:42.759591 (Thread-81): WARNING: Found documentation for resource "customers" which was not found or is disabled
+2021-07-14 20:00:42.759814 (Thread-81): WARNING: Found documentation for resource "orders" which was not found or is disabled
+2021-07-14 20:00:42.759894 (Thread-81): WARNING: Found documentation for resource "stg_customers" which was not found or is disabled
+2021-07-14 20:00:42.759947 (Thread-81): WARNING: Found documentation for resource "stg_orders" which was not found or is disabled
+2021-07-14 20:00:42.760129 (Thread-81): [WARNING]: Test 'test.dbt_dev_dancam.unique_customers_customer_id' (models/schema.yml) depends on a node named 'customers' which was not found
+2021-07-14 20:00:42.760309 (Thread-81): [WARNING]: Test 'test.dbt_dev_dancam.not_null_customers_customer_id' (models/schema.yml) depends on a node named 'customers' which was not found
+2021-07-14 20:00:42.760436 (Thread-81): [WARNING]: Test 'test.dbt_dev_dancam.unique_stg_customers_customer_id' (models/schema.yml) depends on a node named 'stg_customers' which was not found
+2021-07-14 20:00:42.760556 (Thread-81): [WARNING]: Test 'test.dbt_dev_dancam.not_null_stg_customers_customer_id' (models/schema.yml) depends on a node named 'stg_customers' which was not found
+2021-07-14 20:00:42.760674 (Thread-81): [WARNING]: Test 'test.dbt_dev_dancam.unique_stg_orders_order_id' (models/schema.yml) depends on a node named 'stg_orders' which was not found
+2021-07-14 20:00:42.760789 (Thread-81): [WARNING]: Test 'test.dbt_dev_dancam.not_null_stg_orders_order_id' (models/schema.yml) depends on a node named 'stg_orders' which was not found
+2021-07-14 20:00:42.761001 (Thread-81): [WARNING]: Test 'test.dbt_dev_dancam.accepted_values_stg_orders_status__placed__shipped__completed__return_pending__returned' (models/schema.yml) depends on a node named 'stg_orders' which was not found
+2021-07-14 20:00:42.761229 (Thread-81): [WARNING]: Test 'test.dbt_dev_dancam.unique_orders_order_id' (models/schema.yml) depends on a node named 'orders' which was not found
+2021-07-14 20:00:42.761467 (Thread-81): [WARNING]: Test 'test.dbt_dev_dancam.not_null_orders_order_id' (models/schema.yml) depends on a node named 'orders' which was not found
+2021-07-14 20:00:42.767719 (Thread-81): [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_dev_dancam
+
+2021-07-14 20:00:42.768153 (Thread-81): Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0063a60>]}
+2021-07-14 20:00:43.004046 (Thread-82): handling status request
+2021-07-14 20:00:43.004328 (Thread-82): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0063a00>]}
+2021-07-14 20:00:43.004973 (Thread-82): sending response (<Response 6203 bytes [200 OK]>) to 10.0.36.55
+2021-07-14 20:00:43.073741 (Thread-83): handling status request
+2021-07-14 20:00:43.074017 (Thread-83): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0063760>]}
+2021-07-14 20:00:43.078334 (Thread-84): handling status request
+2021-07-14 20:00:43.078644 (Thread-84): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0085bb0>]}
+2021-07-14 20:00:43.097340 (Thread-83): sending response (<Response 6203 bytes [200 OK]>) to 10.0.47.155
+2021-07-14 20:00:43.097892 (Thread-84): sending response (<Response 6203 bytes [200 OK]>) to 10.0.45.30
+2021-07-14 20:01:14.174395 (Thread-85): Got an acceptable cached parse result
+2021-07-14 20:01:14.343383 (Thread-85): Acquiring new snowflake connection "model.dbt_dev_dancam.customers".
+2021-07-14 20:01:14.435247 (Thread-85): WARNING: Found documentation for resource "orders" which was not found or is disabled
+2021-07-14 20:01:14.435431 (Thread-85): WARNING: Found documentation for resource "stg_customers" which was not found or is disabled
+2021-07-14 20:01:14.435497 (Thread-85): WARNING: Found documentation for resource "stg_orders" which was not found or is disabled
+2021-07-14 20:01:14.435726 (Thread-85): [WARNING]: Test 'test.dbt_dev_dancam.unique_stg_customers_customer_id' (models/schema.yml) depends on a node named 'stg_customers' which was not found
+2021-07-14 20:01:14.435912 (Thread-85): [WARNING]: Test 'test.dbt_dev_dancam.not_null_stg_customers_customer_id' (models/schema.yml) depends on a node named 'stg_customers' which was not found
+2021-07-14 20:01:14.436052 (Thread-85): [WARNING]: Test 'test.dbt_dev_dancam.unique_stg_orders_order_id' (models/schema.yml) depends on a node named 'stg_orders' which was not found
+2021-07-14 20:01:14.436174 (Thread-85): [WARNING]: Test 'test.dbt_dev_dancam.not_null_stg_orders_order_id' (models/schema.yml) depends on a node named 'stg_orders' which was not found
+2021-07-14 20:01:14.436291 (Thread-85): [WARNING]: Test 'test.dbt_dev_dancam.accepted_values_stg_orders_status__placed__shipped__completed__return_pending__returned' (models/schema.yml) depends on a node named 'stg_orders' which was not found
+2021-07-14 20:01:14.436407 (Thread-85): [WARNING]: Test 'test.dbt_dev_dancam.unique_orders_order_id' (models/schema.yml) depends on a node named 'orders' which was not found
+2021-07-14 20:01:14.436521 (Thread-85): [WARNING]: Test 'test.dbt_dev_dancam.not_null_orders_order_id' (models/schema.yml) depends on a node named 'orders' which was not found
+2021-07-14 20:01:14.441088 (Thread-85): Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b1bd4fa0>]}
+2021-07-14 20:01:14.688620 (Thread-86): handling status request
+2021-07-14 20:01:14.688910 (Thread-86): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0a56d30>]}
+2021-07-14 20:01:14.689541 (Thread-86): sending response (<Response 4971 bytes [200 OK]>) to 10.0.23.35
+2021-07-14 20:01:14.700427 (Thread-87): handling status request
+2021-07-14 20:01:14.700681 (Thread-87): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b1211760>]}
+2021-07-14 20:01:14.701261 (Thread-87): sending response (<Response 4971 bytes [200 OK]>) to 10.0.11.11
+2021-07-14 20:01:14.725559 (Thread-88): handling status request
+2021-07-14 20:01:14.725816 (Thread-88): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b1211d00>]}
+2021-07-14 20:01:14.726396 (Thread-88): sending response (<Response 4971 bytes [200 OK]>) to 10.0.31.229
+2021-07-14 20:01:17.393441 (MainThread): Connection 'model.dbt_dev_dancam.customers' was properly closed.
+2021-07-14 20:01:17.430669 (Thread-89): Got an acceptable cached parse result
+2021-07-14 20:01:17.593131 (Thread-89): Acquiring new snowflake connection "model.dbt_dev_dancam.customers".
+2021-07-14 20:01:17.684594 (Thread-89): WARNING: Found documentation for resource "orders" which was not found or is disabled
+2021-07-14 20:01:17.684753 (Thread-89): WARNING: Found documentation for resource "stg_customers" which was not found or is disabled
+2021-07-14 20:01:17.684814 (Thread-89): WARNING: Found documentation for resource "stg_orders" which was not found or is disabled
+2021-07-14 20:01:17.971484 (Thread-90): handling status request
+2021-07-14 20:01:17.971789 (Thread-90): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0a29490>]}
+2021-07-14 20:01:17.972344 (Thread-90): sending response (<Response 1908 bytes [200 OK]>) to 10.0.11.11
+2021-07-14 20:01:17.980911 (Thread-91): handling status request
+2021-07-14 20:01:17.981135 (Thread-91): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0a56e50>]}
+2021-07-14 20:01:17.981598 (Thread-91): sending response (<Response 1908 bytes [200 OK]>) to 10.0.32.157
+2021-07-14 20:01:17.996677 (Thread-92): handling status request
+2021-07-14 20:01:17.996892 (Thread-92): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0a299a0>]}
+2021-07-14 20:01:17.997349 (Thread-92): sending response (<Response 1908 bytes [200 OK]>) to 10.0.12.170
+2021-07-14 20:01:20.880298 (MainThread): Connection 'model.dbt_dev_dancam.customers' was properly closed.
+2021-07-14 20:01:20.914745 (Thread-93): Got an acceptable cached parse result
+2021-07-14 20:01:21.158562 (Thread-93): WARNING: Found documentation for resource "orders" which was not found or is disabled
+2021-07-14 20:01:21.158731 (Thread-93): WARNING: Found documentation for resource "stg_customers" which was not found or is disabled
+2021-07-14 20:01:21.158792 (Thread-93): WARNING: Found documentation for resource "stg_orders" which was not found or is disabled
+2021-07-14 20:01:21.421322 (Thread-94): handling status request
+2021-07-14 20:01:21.421631 (Thread-94): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59b6b3280>]}
+2021-07-14 20:01:21.422165 (Thread-94): sending response (<Response 1607 bytes [200 OK]>) to 10.0.31.157
+2021-07-14 20:01:21.449792 (Thread-95): handling status request
+2021-07-14 20:01:21.450083 (Thread-95): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59b6b3be0>]}
+2021-07-14 20:01:21.450596 (Thread-95): sending response (<Response 1607 bytes [200 OK]>) to 10.0.32.157
+2021-07-14 20:01:21.460411 (Thread-96): handling status request
+2021-07-14 20:01:21.460653 (Thread-96): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59b6b36d0>]}
+2021-07-14 20:01:21.461135 (Thread-96): sending response (<Response 1607 bytes [200 OK]>) to 10.0.1.39
+2021-07-14 20:01:46.366160 (Thread-97): Got an acceptable cached parse result
+2021-07-14 20:01:46.532029 (Thread-97): Acquiring new snowflake connection "model.dbt_dev_dancam.orders".
+2021-07-14 20:01:46.757012 (Thread-97): WARNING: Found documentation for resource "stg_customers" which was not found or is disabled
+2021-07-14 20:01:46.757177 (Thread-97): WARNING: Found documentation for resource "stg_orders" which was not found or is disabled
+2021-07-14 20:01:46.853364 (Thread-98): handling status request
+2021-07-14 20:01:46.853685 (Thread-98): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b122ea00>]}
+2021-07-14 20:01:46.854299 (Thread-98): sending response (<Response 1587 bytes [200 OK]>) to 10.0.18.59
+2021-07-14 20:01:46.864736 (Thread-99): handling status request
+2021-07-14 20:01:46.864968 (Thread-99): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b122e670>]}
+2021-07-14 20:01:46.865465 (Thread-99): sending response (<Response 1587 bytes [200 OK]>) to 10.0.12.170
+2021-07-14 20:01:47.019554 (Thread-100): handling status request
+2021-07-14 20:01:47.019841 (Thread-100): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b122e9d0>]}
+2021-07-14 20:01:47.020454 (Thread-100): sending response (<Response 1587 bytes [200 OK]>) to 10.0.36.22
+2021-07-14 20:01:49.543962 (MainThread): Connection 'model.dbt_dev_dancam.orders' was properly closed.
+2021-07-14 20:01:49.590595 (Thread-101): Got an acceptable cached parse result
+2021-07-14 20:01:49.770605 (Thread-101): Acquiring new snowflake connection "model.dbt_dev_dancam.orders".
+2021-07-14 20:01:49.867614 (Thread-101): WARNING: Found documentation for resource "stg_customers" which was not found or is disabled
+2021-07-14 20:01:49.867787 (Thread-101): WARNING: Found documentation for resource "stg_orders" which was not found or is disabled
+2021-07-14 20:01:50.060189 (Thread-102): handling status request
+2021-07-14 20:01:50.060977 (Thread-103): handling status request
+2021-07-14 20:01:50.061314 (Thread-102): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0c01af0>]}
+2021-07-14 20:01:50.061569 (Thread-103): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b1b6fe80>]}
+2021-07-14 20:01:50.062127 (Thread-102): sending response (<Response 1576 bytes [200 OK]>) to 10.0.31.157
+2021-07-14 20:01:50.062640 (Thread-103): sending response (<Response 1576 bytes [200 OK]>) to 10.0.9.172
+2021-07-14 20:01:50.072560 (Thread-104): handling status request
+2021-07-14 20:01:50.072777 (Thread-104): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b1b6f370>]}
+2021-07-14 20:01:50.073234 (Thread-104): sending response (<Response 1576 bytes [200 OK]>) to 10.0.32.157
+2021-07-14 20:02:16.195763 (MainThread): Connection 'model.dbt_dev_dancam.orders' was properly closed.
+2021-07-14 20:02:16.237308 (Thread-105): Got an acceptable cached parse result
+2021-07-14 20:02:16.504508 (Thread-105): WARNING: Found documentation for resource "stg_customers" which was not found or is disabled
+2021-07-14 20:02:16.504685 (Thread-105): WARNING: Found documentation for resource "stg_orders" which was not found or is disabled
+2021-07-14 20:02:16.685328 (Thread-106): handling status request
+2021-07-14 20:02:16.685662 (Thread-106): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59b6ee6a0>]}
+2021-07-14 20:02:16.686211 (Thread-106): sending response (<Response 1277 bytes [200 OK]>) to 10.0.31.229
+2021-07-14 20:02:16.734171 (Thread-107): handling status request
+2021-07-14 20:02:16.734587 (Thread-107): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b3c438b0>]}
+2021-07-14 20:02:16.735227 (Thread-107): sending response (<Response 1277 bytes [200 OK]>) to 10.0.47.155
+2021-07-14 20:02:16.771583 (Thread-108): handling status request
+2021-07-14 20:02:16.771863 (Thread-108): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b3c43ee0>]}
+2021-07-14 20:02:16.772372 (Thread-108): sending response (<Response 1277 bytes [200 OK]>) to 10.0.36.22
+2021-07-14 20:02:19.077595 (Thread-109): Got an acceptable cached parse result
+2021-07-14 20:02:19.346491 (Thread-109): WARNING: Found documentation for resource "stg_customers" which was not found or is disabled
+2021-07-14 20:02:19.346663 (Thread-109): WARNING: Found documentation for resource "stg_orders" which was not found or is disabled
+2021-07-14 20:02:19.594522 (Thread-110): handling status request
+2021-07-14 20:02:19.594816 (Thread-110): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0a55370>]}
+2021-07-14 20:02:19.595419 (Thread-110): sending response (<Response 1277 bytes [200 OK]>) to 10.0.36.22
+2021-07-14 20:02:19.607589 (Thread-111): handling status request
+2021-07-14 20:02:19.607871 (Thread-111): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0a555b0>]}
+2021-07-14 20:02:19.608505 (Thread-111): sending response (<Response 1277 bytes [200 OK]>) to 10.0.23.35
+2021-07-14 20:02:19.622981 (Thread-112): handling status request
+2021-07-14 20:02:19.623312 (Thread-112): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0a55280>]}
+2021-07-14 20:02:19.623833 (Thread-112): sending response (<Response 1277 bytes [200 OK]>) to 10.0.36.22
+2021-07-14 20:02:43.554250 (Thread-113): Got an acceptable cached parse result
+2021-07-14 20:02:43.850448 (Thread-113): Acquiring new snowflake connection "model.dbt_dev_dancam.stg_customers".
+2021-07-14 20:02:43.950557 (Thread-113): WARNING: Found documentation for resource "stg_orders" which was not found or is disabled
+2021-07-14 20:02:44.072387 (Thread-114): handling status request
+2021-07-14 20:02:44.072676 (Thread-114): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59b7c3370>]}
+2021-07-14 20:02:44.073195 (Thread-114): sending response (<Response 1257 bytes [200 OK]>) to 10.0.11.11
+2021-07-14 20:02:44.078736 (Thread-115): handling status request
+2021-07-14 20:02:44.078971 (Thread-115): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59b7c3cd0>]}
+2021-07-14 20:02:44.079388 (Thread-115): sending response (<Response 1257 bytes [200 OK]>) to 10.0.20.233
+2021-07-14 20:02:44.087081 (Thread-116): handling status request
+2021-07-14 20:02:44.087273 (Thread-116): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59b7c3b20>]}
+2021-07-14 20:02:44.087673 (Thread-116): sending response (<Response 1257 bytes [200 OK]>) to 10.0.45.30
+2021-07-14 20:02:46.585621 (MainThread): Connection 'model.dbt_dev_dancam.stg_customers' was properly closed.
+2021-07-14 20:02:46.626653 (Thread-117): Got an acceptable cached parse result
+2021-07-14 20:02:46.788071 (Thread-117): Acquiring new snowflake connection "model.dbt_dev_dancam.stg_customers".
+2021-07-14 20:02:46.890487 (Thread-117): WARNING: Found documentation for resource "stg_orders" which was not found or is disabled
+2021-07-14 20:02:47.149367 (Thread-118): handling status request
+2021-07-14 20:02:47.149662 (Thread-118): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0071130>]}
+2021-07-14 20:02:47.150205 (Thread-118): sending response (<Response 1257 bytes [200 OK]>) to 10.0.23.35
+2021-07-14 20:02:47.173441 (Thread-119): handling status request
+2021-07-14 20:02:47.173723 (Thread-119): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b11f2c40>]}
+2021-07-14 20:02:47.174203 (Thread-119): sending response (<Response 1257 bytes [200 OK]>) to 10.0.31.157
+2021-07-14 20:02:47.247726 (Thread-120): handling status request
+2021-07-14 20:02:47.248010 (Thread-120): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0071af0>]}
+2021-07-14 20:02:47.248509 (Thread-120): sending response (<Response 1257 bytes [200 OK]>) to 10.0.23.35
+2021-07-14 20:03:08.437129 (MainThread): Connection 'model.dbt_dev_dancam.stg_customers' was properly closed.
+2021-07-14 20:03:08.481174 (Thread-121): Got an acceptable cached parse result
+2021-07-14 20:03:08.651779 (Thread-121): Acquiring new snowflake connection "model.dbt_dev_dancam.stg_order".
+2021-07-14 20:03:08.750731 (Thread-121): WARNING: Found documentation for resource "stg_orders" which was not found or is disabled
+2021-07-14 20:03:08.970386 (Thread-122): handling status request
+2021-07-14 20:03:08.970675 (Thread-122): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b3c42be0>]}
+2021-07-14 20:03:08.991780 (Thread-123): handling status request
+2021-07-14 20:03:08.992583 (Thread-122): sending response (<Response 1253 bytes [200 OK]>) to 10.0.4.229
+2021-07-14 20:03:08.992875 (Thread-123): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b11f2f70>]}
+2021-07-14 20:03:08.993600 (Thread-123): sending response (<Response 1253 bytes [200 OK]>) to 10.0.33.11
+2021-07-14 20:03:09.050772 (Thread-124): handling status request
+2021-07-14 20:03:09.051088 (Thread-124): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b3c42b80>]}
+2021-07-14 20:03:09.051642 (Thread-124): sending response (<Response 1253 bytes [200 OK]>) to 10.0.32.157
+2021-07-14 20:03:11.016244 (MainThread): Connection 'model.dbt_dev_dancam.stg_order' was properly closed.
+2021-07-14 20:03:11.056000 (Thread-125): Got an acceptable cached parse result
+2021-07-14 20:03:11.221497 (Thread-125): Acquiring new snowflake connection "model.dbt_dev_dancam.stg_order".
+2021-07-14 20:03:11.444256 (Thread-125): WARNING: Found documentation for resource "stg_orders" which was not found or is disabled
+2021-07-14 20:03:11.519036 (Thread-126): handling status request
+2021-07-14 20:03:11.519324 (Thread-126): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0a04b50>]}
+2021-07-14 20:03:11.519889 (Thread-126): sending response (<Response 1253 bytes [200 OK]>) to 10.0.18.59
+2021-07-14 20:03:11.557312 (Thread-127): handling status request
+2021-07-14 20:03:11.557608 (Thread-127): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0a04280>]}
+2021-07-14 20:03:11.558152 (Thread-127): sending response (<Response 1253 bytes [200 OK]>) to 10.0.4.229
+2021-07-14 20:03:11.639670 (Thread-128): handling status request
+2021-07-14 20:03:11.639960 (Thread-128): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0a04190>]}
+2021-07-14 20:03:11.640454 (Thread-128): sending response (<Response 1253 bytes [200 OK]>) to 10.0.36.55
+2021-07-14 20:03:34.527403 (MainThread): Connection 'model.dbt_dev_dancam.stg_order' was properly closed.
+2021-07-14 20:03:34.566342 (Thread-129): Got an acceptable cached parse result
+2021-07-14 20:03:34.737647 (Thread-129): Acquiring new snowflake connection "model.dbt_dev_dancam.stg_payments".
+2021-07-14 20:03:34.846361 (Thread-129): WARNING: Found documentation for resource "stg_orders" which was not found or is disabled
+2021-07-14 20:03:35.070296 (Thread-130): handling status request
+2021-07-14 20:03:35.070667 (Thread-130): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0a56580>]}
+2021-07-14 20:03:35.071432 (Thread-130): sending response (<Response 1256 bytes [200 OK]>) to 10.0.23.35
+2021-07-14 20:03:35.076488 (Thread-131): handling status request
+2021-07-14 20:03:35.076702 (Thread-131): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0a56f70>]}
+2021-07-14 20:03:35.077192 (Thread-131): sending response (<Response 1256 bytes [200 OK]>) to 10.0.32.157
+2021-07-14 20:03:35.105238 (Thread-132): handling status request
+2021-07-14 20:03:35.105516 (Thread-132): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59b6b3250>]}
+2021-07-14 20:03:35.106005 (Thread-132): sending response (<Response 1256 bytes [200 OK]>) to 10.0.45.30
+2021-07-14 20:03:37.534408 (MainThread): Connection 'model.dbt_dev_dancam.stg_payments' was properly closed.
+2021-07-14 20:03:37.574954 (Thread-133): Got an acceptable cached parse result
+2021-07-14 20:03:37.759736 (Thread-133): Acquiring new snowflake connection "model.dbt_dev_dancam.stg_payments".
+2021-07-14 20:03:37.902555 (Thread-133): WARNING: Found documentation for resource "stg_orders" which was not found or is disabled
+2021-07-14 20:03:38.077197 (Thread-134): handling status request
+2021-07-14 20:03:38.077517 (Thread-134): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b1ae77f0>]}
+2021-07-14 20:03:38.078107 (Thread-134): sending response (<Response 1256 bytes [200 OK]>) to 10.0.31.157
+2021-07-14 20:03:38.119630 (Thread-135): handling status request
+2021-07-14 20:03:38.119973 (Thread-135): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0afcbb0>]}
+2021-07-14 20:03:38.120487 (Thread-135): sending response (<Response 1256 bytes [200 OK]>) to 10.0.31.229
+2021-07-14 20:03:38.196410 (Thread-136): handling status request
+2021-07-14 20:03:38.196710 (Thread-136): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b1ae7a30>]}
+2021-07-14 20:03:38.197221 (Thread-136): sending response (<Response 1256 bytes [200 OK]>) to 10.0.33.11
+2021-07-14 20:03:41.525978 (MainThread): Connection 'model.dbt_dev_dancam.stg_payments' was properly closed.
+2021-07-14 20:03:41.568703 (Thread-137): Got an acceptable cached parse result
+2021-07-14 20:03:41.994717 (Thread-137): WARNING: Found documentation for resource "stg_orders" which was not found or is disabled
+2021-07-14 20:03:42.152353 (Thread-138): handling status request
+2021-07-14 20:03:42.152634 (Thread-138): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b005d070>]}
+2021-07-14 20:03:42.153138 (Thread-138): sending response (<Response 951 bytes [200 OK]>) to 10.0.9.172
+2021-07-14 20:03:42.154404 (Thread-139): handling status request
+2021-07-14 20:03:42.154778 (Thread-139): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0a71c70>]}
+2021-07-14 20:03:42.155373 (Thread-140): handling status request
+2021-07-14 20:03:42.155930 (Thread-139): sending response (<Response 951 bytes [200 OK]>) to 10.0.20.233
+2021-07-14 20:03:42.156214 (Thread-140): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd59b6bd1c0>]}
+2021-07-14 20:03:42.156868 (Thread-140): sending response (<Response 951 bytes [200 OK]>) to 10.0.36.55
+2021-07-14 20:03:58.901367 (Thread-141): handling status request
+2021-07-14 20:03:58.901673 (Thread-141): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'da455e51-2dfc-49b7-be65-9fa2a00ce021', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd5b0b89c70>]}
+2021-07-14 20:03:58.902175 (Thread-141): sending response (<Response 951 bytes [200 OK]>) to 10.0.22.70
