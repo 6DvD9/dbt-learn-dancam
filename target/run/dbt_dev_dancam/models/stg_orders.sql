@@ -1,10 +1,9 @@
 
-  create or replace  view DEMO_DB.dbt_dcampbell.stg_orders  as (
+  create or replace  view analytics.dbt_dcampbell.stg_orders  as (
     select
-    id as order_id,
-    user_id as customer_id,
-    order_date,
-    status
+    id as customer_id,
+    first_name,
+    last_name
 
-from raw.jaffle_shop.orders
+from raw.jaffle_shop.customers
   );

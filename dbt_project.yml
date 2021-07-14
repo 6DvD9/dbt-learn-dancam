@@ -32,4 +32,4 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 models:
   dbt_dev_dancam:
-      +materialized: view
+      +materialized: table

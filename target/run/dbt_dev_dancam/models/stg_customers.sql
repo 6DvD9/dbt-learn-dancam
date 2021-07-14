@@ -1,5 +1,5 @@
 
-  create or replace  view DEMO_DB.dbt_dcampbell.stg_customers  as (
+  create or replace  view analytics.dbt_dcampbell.stg_customers  as (
     select
     id as customer_id,
     first_name,
